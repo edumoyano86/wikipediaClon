@@ -15,9 +15,111 @@ header .header-logo img {
     margin: 0 auto;
 }
 
-header section p {
+header .header-text p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    
+}
+
+main {
+    width: 100%;
+}
+
+main .main-section1 {
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+main .main-section1 img {
+    /* padding-top: 90px; */
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top: 85px;
+    left: 85px;
+}
+
+main .main-section1 p {
+    color: #36c;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main .main-section1 small {
+    color: #54595d;
+    margin-top: 10px;
+}
+
+main .main-section1 .main-div-text1 {
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text2 {
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text3 {
+    position: absolute;
+    top: 80px;
+    left: -45px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text4 {
+    position: absolute;
+    top: 80px;
+    right: -55px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text5 {
+    position: absolute;
+    top: 150px;
+    left: -75px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text6 {
+    position: absolute;
+    top: 150px;
+    right: -75px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text7 {
+    position: absolute;
+    top: 220px;
+    left: -25px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text8 {
+    position: absolute;
+    top: 220px;
+    right: -25px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text9 {
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    text-align: center;
+}
+
+main .main-section1 .main-div-text10 {
+    position: absolute;
+    top: 290px;
+    right: 25px;
+    text-align: center;
 }
