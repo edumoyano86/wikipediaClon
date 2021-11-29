@@ -123,3 +123,195 @@ main .main-section1 .main-div-text10 {
     right: 25px;
     text-align: center;
 }
+
+main .section-search {
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 30px;    
+}
+
+main .main-search{
+    border: solid 1px #54595d;
+    border-right: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    
+}
+
+.main-search-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    padding-right: 20px;
+    border-radius: 3px;
+    border-right: none;
+}
+
+.search-text, .search-drop-down {
+    border: transparent;
+    background-color: white;
+    height: 45px;
+}
+
+main .search-icon-container {
+    width: 45px;
+    height: 45px;
+    background-color: var(--blue-color);
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    box-sizing: border-box;
+}
+
+.search-icon {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJrIn5W6k_jExV48NfPuujBo9s7VwtP6m5WEaYyj5PJj2yYcEl0GE4JpHIMX_tkzQmumI&usqp=CAU");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.button-languages {
+    text-align: center;
+}
+
+.button-languages button {
+    display: inline;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 6px 12px;
+    outline: 16px solid #fff;
+    border: 1px solid #aeb4bb;
+    border-radius: 2px;
+    color: #36c;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    transition: outline-width .1s ease-in.5s;
+    cursor: pointer;
+}
+
+.button-languages button:hover {
+    border-color: #a2a9b1;
+}
+
+.button-languages button i {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 5px;
+}
+
+.button-languages button .icon-languages {
+    width: 23px;
+    height: 23px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OOjs_UI_icon_language-ltr-progressive.svg/1024px-OOjs_UI_icon_language-ltr-progressive.svg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.button-languages button .icon-arrow {
+    width: 13px;
+    height: 13px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAS1BMVEX///8hlvMMkvNSp/VDofQXlPMAkPL7/f8AkfPy+P74+//f7f3i7/3n8v3t9f4mmPNIo/TY6fwAjfIwm/M6nvRXqfVerPVnsPaYx/jq+3UsAAAC7UlEQVR4nO3c227qMBBAUSeQQmlpKaWX///SkxRV5RIPiRnbY5+9X5HsWUokghTjHBERERERERERERERERERERERERERERERERERERGNtVnlnmCk1UZxscNOcTGtdge9tZZdu9BbTalF2y211lp2TWOOuGibRos4AM0RB6AW8Qg0RjwCdYi/QFPEX6AG8Q9oiPgHvJ94CjRDPAXeSzwHGiGeA+8jXgJNEC+B9xCvgQaI18Bw4hgwO3EMGEocB2YmjgODiBsfMCvRBxyIc39pvO29wnxEP7Dp9m9zV3t6MEeUgA9P89czR9QGmiPqA40RYwCde7ZDFIHP4euaIcYCmiHGAxohxgSaIMYFOrddZyZKwPVWY4ft2rtDCqIAbHSAmYkpgD1R2CUyUQK2asCMxFTAbMR0wEzElMCe6P/OiEWUgJ060LmX1EQR+BJhw9TE9MDExBzAgZjsAU56VIsHTEjMBUxGzAfsiU0CogRsIgOTEPMCExBzA517jEsUgY8K808oKtECMCrRBjAi0QqwJ75GIUrA16TASERLwCg3qp1b9Jj6VbR1BYeUifaAzm00iSJQ833nWSkSbQIViVaBakS7wJ74rkCUgO+ZgSpE20AFonXgQPSPOIEoAFsbwDuJJQCdW4UTRaCh01bBxFKAwcRygD3xEECUgAdjwCBiWcAAYmnA2cTygDOJJQJnEcsE9k0lisBs00/Kf0zjlCg9bKsd7o3VFGLRwCnEwoG3icUDbxErADq38xO7VvjM4j83eNoJr/v4r29BwCBiWcAAYmnA2cTygDOJJQLltwsvgblPiAc2mVgqcDKxXOBEYsnAScSygROIpQNvEssHOvchEduP3ONpJBDrAArEWoA9cfwA47oaoIdYE9C5z2vi+jP3ULpdEWsDXhHrA14QawSeEesEnhBrBTr3dfzqb79yDxKvH2LNwB9i3cCeuK8c6Nx37gGIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIj+9/4BAnEjZcOtS/4AAAAASUVORK5CYII=");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.lang-list-border {
+    background-color: #c8ccd1;
+    display: block;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    margin: -16px auto 16px;
+    height: 1px;
+    transition: max-width .2s ease-out 400s;
+}
+
+main .links hr {
+    border-top: 0.5px solid #a2a9b1;
+    margin: 20px;
+    margin-top: 35px;
+}
+
+main .links .div-links .column1 .column1-text1 {
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links .div-links .column1 .column1-text1 img {
+    height: 42px;
+    width: 42px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links .div-links .column1 .column1-text2 {
+    display: flex;
+    background-color: #f8f9fa;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links .div-links .column1 .column1-text2 .img-wiki {
+    height: 42px;
+    width: 42px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+main .links .div-links .column1 .column1-text2 .column1-logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .links .div-links .column1 .column1-text2 .column1-logos .google {
+    height: 35px;
+    width: 120px;
+    padding-bottom: 5px;
+}
+
+main .links .div-links .column1 .column1-text2 .column1-logos .apple {
+    height: 35px;
+    width: 115px;
+}
+
+main .links .div-links .column2 p {
+    color: #36c;
+    width: 14px;
+    margin-bottom: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links .div-links .column2 small {
+    font-size: 13px;
+    padding-top: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .links .div-links .column2 .commons1 {
+    display: flex;
+}
+
+main .links .div-links .column2 .commons1 img {
+    height: 47px;
+    width: 47px;
+    padding: 10px;
+}
