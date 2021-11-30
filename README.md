@@ -1,2 +1,2 @@
 # wikipediaClon
-Intentando hacer la parte de html y css de la pagina inicial de Wikipedia.
+Me gusto todo menos la barra de busqueda!!!! la verdad no me gusto como quedo si alguien entra y lo ve... puede ayudarme en la forma que quiera !
